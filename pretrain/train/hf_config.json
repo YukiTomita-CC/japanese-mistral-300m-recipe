@@ -28,10 +28,11 @@
     "per_device_eval_batch_size":4 ,
     "block_size":1024 ,
     "adam_epsilon":1.0e-4 ,
-    "fp16":true ,
+    "bf16":true ,
     "gradient_accumulation_steps":64 ,
     "push_to_hub":false,
     "dataloader_num_workers": 8,
     "optim":"adamw_bnb_8bit" ,
-    "torch_compile":true
+    "torch_compile":true,
+    "report_to":"wandb"
 }
