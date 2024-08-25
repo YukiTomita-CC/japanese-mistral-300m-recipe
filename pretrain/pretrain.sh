@@ -7,10 +7,10 @@ source .env/bin/activate
 cd pretrain
 
 # create dataset for pretrain
-bash dataset/dataset.sh
+# bash dataset/dataset.sh
 
 # # train sentencepice tokenizer
-bash tokenizer/tokenizer.sh
+# bash tokenizer/tokenizer.sh
 
 # # execute pretrain
 bash train/train.sh
